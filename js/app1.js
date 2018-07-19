@@ -18,9 +18,9 @@ let matchedCard = document.getElementsByClassName("match");
 
  let modal = document.getElementById("popup1")
 
-var openedCards = [];
+let openedCards = [];
 
-function shuffle(array) {
+function shuffle(array) {                                          //This function used to shuffle cards.
     var currentIndex = array.length, temporaryValue, randomIndex;
 
     while (currentIndex !== 0) {
@@ -34,7 +34,7 @@ function shuffle(array) {
     return array;
 };
 
-document.body.onload = startGame();
+document.body.onload = startGame();                             //Starts game from beginning
 
 
 function startGame(){
@@ -124,7 +124,7 @@ function enable(){
 }
 
 
-function moveCounter(){
+function moveCounter(){                                              //count number of moves
     moves++;
     counter.innerHTML = moves;
     if(moves == 1){
@@ -170,7 +170,7 @@ function startTimer(){
     },1000);
 }
 
-function congratulations(){
+function congratulations(){                                //give popup message when you win 
     if (matchedCard.length == 16){
         clearInterval(interval);
         finalTime = timer.innerHTML;
