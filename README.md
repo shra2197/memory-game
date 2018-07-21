@@ -3,3 +3,5 @@ Memory game is generally used to check how your memory is strong. It is a card g
 #bootstrap
 bootstarp is use to make website responsive.
 
+#google fonts api
+This help to explains how to use the Google Fonts API to add fonts to your web pages. You don't need to do any programming, just need to add a special stylesheet link to your HTML document, then refer to the font in a CSS style.
