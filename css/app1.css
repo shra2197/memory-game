@@ -41,18 +41,18 @@ h1 {
 
 
 .deck {
-	width: 85%;
-	
-	padding: 1rem;
-	border-radius: 4px;
-	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	margin: 0 0 3em;
+    width: 660px;
+    min-height: 680px;
+    background: linear-gradient(160deg, #d60e22 50%, #4eef26 100%);
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
 }
-
 .deck .card {
 	height: 3.7rem;
 	width: 3.7rem;
