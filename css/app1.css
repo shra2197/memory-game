@@ -42,7 +42,7 @@ h1 {
 
 .deck {
 	width: 85%;
-	background: linear-gradient(160deg, #d60e22 50%, #4eef26 100%);
+	
 	padding: 1rem;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
